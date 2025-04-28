@@ -131,18 +131,17 @@ The datasets were primarily sourced from the [ASNR repository](https://bansallab
 
 ## 📜 License
 
-This dataset collection is licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
 
-You are free to:
-- **Share** — copy and redistribute the material in any medium or format.
-- **Adapt** — remix, transform, and build upon the material for any purpose, even commercially.
+The code, organization scripts, and documentation in this repository are licensed under the **MIT License**.
 
-Under the following terms:
-- **Attribution** — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+**Important Note**:  
+The datasets included in this repository are sourced from third-party public repositories, each of which may have their own licensing terms.  
+In particular, datasets from [SocioPatterns](http://www.sociopatterns.org/) are subject to a **Creative Commons Attribution-NonCommercial 4.0 International License (CC BY-NC 4.0)**.  
+Users must comply with the original licenses when using any dataset provided here.
 
-License Details: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+License Details: [LICENSE](./LICENSE)
 
----
+<!-- --- -->
 <!-- 
 ## 📋 Third-Party Dataset Sources
 

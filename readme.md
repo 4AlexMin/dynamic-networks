@@ -45,7 +45,8 @@ organized_data/
 This collection of 50 human dynamic networks were acquired and structured from well-established public data repositories, including [SNAP](https://snap.stanford.edu/), [Network Repository](http://networkrepository.com/), [SocioPatterns](http://www.sociopatterns.org/), [WoSNet](http://wosnproject.org/), and datasets collected by [Opsahl et al](https://doi.org/10.1016/j.socnet.2009.02.002).  
 
 
-| Network | #Nodes ($N$) | #Edges ($E$) | $E/N$ | Average Degree | Network Density | Source |
+
+| Network | #Nodes (N) | #Edges (E) | E/N | Average Degree | Network Density | Source |
 |:---|---:|---:|---:|---:|---:|:---|
 | **Category: Citation Networks** |||||||
 | cit-HepPh | 30,566 | 347,414 | 11.37 | 22.73 | $7.40\times10^{-4}$ | SNAP |

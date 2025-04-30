@@ -1,6 +1,7 @@
 # Dynamic Network Datasets
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15294830.svg)](https://doi.org/10.5281/zenodo.15294830)
 
+<!-- [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15294830-blue)](https://doi.org/10.5281/zenodo.15294830) -->
 
 
 This repository contains a structured collection of **dynamic (temporal) network datasets**. The datasets are curated across both human and non-human domains, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.  
@@ -26,7 +27,7 @@ Each type is further organized into logical categories based on network characte
 
 ## 📁 Folder Structure
 ```plaintext
-/
+./
 ├── human/
 │   ├── Citation Networks/
 │   ├── Communication Networks/

@@ -1,14 +1,7 @@
 # Dynamic Network Datasets
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15294829.svg)](https://doi.org/10.5281/zenodo.15294829)
-
-<!-- [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15294829-blue)](https://doi.org/10.5281/zenodo.15294829) -->
 
 
-This repository contains a structured collection of **dynamic (temporal) network datasets**. The datasets are curated across both human and non-human domains, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.  
-
-In particular, some non-human datasets were manually collected and carefully reformatted based on information extracted from original research articles in the field of animal social behavior.
-
-
+This repository contains a structured collection of **dynamic (temporal) network datasets** focused on human networks, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.
 
 The data is formatted as plain text files, where **each line represents a temporal edge** in the form:
 
@@ -16,9 +9,8 @@ The data is formatted as plain text files, where **each line represents a tempor
 nodeA  nodeB  timestamp
 ```
 
-Datasets are grouped into two types:
+Datasets include:
 - **50 Human-based Networks**: Interactions between people or human-generated data.
-- **29 Non-human (animal) Networks**: Interactions observed among animals or biological entities.
 
 Each type is further organized into logical categories based on network characteristics to facilitate research and analysis.
 
@@ -28,18 +20,13 @@ Each type is further organized into logical categories based on network characte
 ## Folder Structure
 ```plaintext
 ./
-├── human/
-│   ├── Citation Networks/
-│   ├── Communication Networks/
-│   ├── Interactive Digital Communities/
-│   ├── Recommendation Networks/
-│   ├── Physical Contacts/
-│   └── Others/
-└── non-human/
-    ├── aves/
-    ├── insecta/
-    ├── mammalia/
-    └── reptilia/
+└── human/
+    ├── Citation Networks/
+    ├── Communication Networks/
+    ├── Interactive Digital Communities/
+    ├── Recommendation Networks/
+    ├── Physical Contacts/
+    └── Others/
 ```
 
 ---
@@ -114,24 +101,31 @@ This collection of 50 human dynamic networks were acquired and structured from w
 
 ---
 
-### Non-Human Networks
+## Citation
 
+These datasets are used for the validation of theory presented in the following paper. If you use this repository in your research, please cite:
 
+**Participant-invariant, evolving patterns of influence in dynamic networks**  
+Min, Shaojie and Shang, Jiaxing and Liu, Ji and Chen, Yang  
+*Physical Review E*, 112(5), L052302 (2025)  
+DOI: [10.1103/8stj-d6bf](https://link.aps.org/doi/10.1103/8stj-d6bf)
 
-This collection includes 29 dynamic networks spanning four major Linnaean classes: *Mammalia*, *Aves*, *Reptilia*, and *Insecta*.  
-The datasets were primarily sourced from the [ASNR repository](https://bansallab.github.io/asnr/data.html) and **manually collected and formatted** from published animal behavior research articles.
-
-- **Aves**:  
-  Bird social networks, including wildbirds, weavers, parakeets, and sparrows.
-
-- **Insecta**:  
-  Ant colony interaction and trophallaxis (food-sharing) networks.
-
-- **Mammalia**:  
-  Mammal social behavior networks, including elephant seals, bats, voles, raccoons, and primates.
-
-- **Reptilia**:  
-  Tortoise social interaction networks.
+```bibtex
+@article{8stj-d6bf,
+  title = {Participant-invariant, evolving patterns of influence in dynamic networks},
+  author = {Min, Shaojie and Shang, Jiaxing and Liu, Ji and Chen, Yang},
+  journal = {Phys. Rev. E},
+  volume = {112},
+  issue = {5},
+  pages = {L052302},
+  numpages = {7},
+  year = {2025},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/8stj-d6bf},
+  url = {https://link.aps.org/doi/10.1103/8stj-d6bf}
+}
+```
 
 ---
 
@@ -162,7 +156,3 @@ This repository organizes datasets collected from the following sources:
 Please refer to the original sources for specific licensing or citation requirements related to the original datasets.
 
 --- -->
-
-<!-- ## ✏️ Citation
-
-If you find this dataset collection useful in your research, please cite this repository: -->

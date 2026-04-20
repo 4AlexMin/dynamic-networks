@@ -4,11 +4,9 @@
 <!-- [![DOI](https://img.shields.io/badge/DOI-10.5281%2Fzenodo.15294829-blue)](https://doi.org/10.5281/zenodo.15294829) -->
 
 
-This repository contains a structured collection of **dynamic (temporal) network datasets**. The datasets are curated across both human and non-human domains, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.  
+This repository contains a structured collection of **dynamic (temporal) network datasets** focused on human networks, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.
 
-In particular, some non-human datasets were manually collected and carefully reformatted based on information extracted from original research articles in the field of animal social behavior.
-
-
+> **Note:** Non-human (animal) network datasets are available on the [`full-dataset`](../../tree/full-dataset) branch.
 
 The data is formatted as plain text files, where **each line represents a temporal edge** in the form:
 
@@ -16,9 +14,8 @@ The data is formatted as plain text files, where **each line represents a tempor
 nodeA  nodeB  timestamp
 ```
 
-Datasets are grouped into two types:
+Datasets include:
 - **50 Human-based Networks**: Interactions between people or human-generated data.
-- **29 Non-human (animal) Networks**: Interactions observed among animals or biological entities.
 
 Each type is further organized into logical categories based on network characteristics to facilitate research and analysis.
 
@@ -28,18 +25,13 @@ Each type is further organized into logical categories based on network characte
 ## Folder Structure
 ```plaintext
 ./
-├── human/
-│   ├── Citation Networks/
-│   ├── Communication Networks/
-│   ├── Interactive Digital Communities/
-│   ├── Recommendation Networks/
-│   ├── Physical Contacts/
-│   └── Others/
-└── non-human/
-    ├── aves/
-    ├── insecta/
-    ├── mammalia/
-    └── reptilia/
+└── human/
+    ├── Citation Networks/
+    ├── Communication Networks/
+    ├── Interactive Digital Communities/
+    ├── Recommendation Networks/
+    ├── Physical Contacts/
+    └── Others/
 ```
 
 ---
@@ -111,27 +103,6 @@ This collection of 50 human dynamic networks were acquired and structured from w
 | ia-frwikinews-user-edits | 25,042 | 193,618 | 15.46 | 6.20e-4 | Network Repository |
 | primary-school | 242 | 125,773 | 1,039.45 | 4.31 | SocioPatterns |
 
-
----
-
-### Non-Human Networks
-
-
-
-This collection includes 29 dynamic networks spanning four major Linnaean classes: *Mammalia*, *Aves*, *Reptilia*, and *Insecta*.  
-The datasets were primarily sourced from the [ASNR repository](https://bansallab.github.io/asnr/data.html) and **manually collected and formatted** from published animal behavior research articles.
-
-- **Aves**:  
-  Bird social networks, including wildbirds, weavers, parakeets, and sparrows.
-
-- **Insecta**:  
-  Ant colony interaction and trophallaxis (food-sharing) networks.
-
-- **Mammalia**:  
-  Mammal social behavior networks, including elephant seals, bats, voles, raccoons, and primates.
-
-- **Reptilia**:  
-  Tortoise social interaction networks.
 
 ---
 

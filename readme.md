@@ -6,8 +6,6 @@
 
 This repository contains a structured collection of **dynamic (temporal) network datasets** focused on human networks, with consistent formatting, standardized naming, and a hierarchical folder structure to support reproducibility and reuse. Each dataset records the interactions or connections between entities (nodes) over time.
 
-> **Note:** Non-human (animal) network datasets are available on the [`full-dataset`](../../tree/full-dataset) branch.
-
 The data is formatted as plain text files, where **each line represents a temporal edge** in the form:
 
 ```plaintext
@@ -106,6 +104,34 @@ This collection of 50 human dynamic networks were acquired and structured from w
 
 ---
 
+## Citation
+
+These datasets are used for the validation of theory presented in the following paper. If you use this repository in your research, please cite:
+
+**Participant-invariant, evolving patterns of influence in dynamic networks**  
+Min, Shaojie and Shang, Jiaxing and Liu, Ji and Chen, Yang  
+*Physical Review E*, 112(5), L052302 (2025)  
+DOI: [10.1103/8stj-d6bf](https://link.aps.org/doi/10.1103/8stj-d6bf)
+
+```bibtex
+@article{8stj-d6bf,
+  title = {Participant-invariant, evolving patterns of influence in dynamic networks},
+  author = {Min, Shaojie and Shang, Jiaxing and Liu, Ji and Chen, Yang},
+  journal = {Phys. Rev. E},
+  volume = {112},
+  issue = {5},
+  pages = {L052302},
+  numpages = {7},
+  year = {2025},
+  month = {Nov},
+  publisher = {American Physical Society},
+  doi = {10.1103/8stj-d6bf},
+  url = {https://link.aps.org/doi/10.1103/8stj-d6bf}
+}
+```
+
+---
+
 ## License
 
 
@@ -133,7 +159,3 @@ This repository organizes datasets collected from the following sources:
 Please refer to the original sources for specific licensing or citation requirements related to the original datasets.
 
 --- -->
-
-<!-- ## ✏️ Citation
-
-If you find this dataset collection useful in your research, please cite this repository: -->
